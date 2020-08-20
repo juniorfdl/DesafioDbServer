@@ -2,7 +2,7 @@ unit Services.Notificacoes.Favorito;
 
 interface
 
-uses SysUtils, Services.Restaurantes, System.Threading;
+uses SysUtils, Services.Restaurantes, System.Threading, DateUtils;
 
 type
   TServicesNotificacoesFavorito = class
@@ -24,6 +24,10 @@ begin
       while true do
       begin
         Sleep(TEMPO_EMAIL);
+
+        if HourOf(Now) <> 11 then
+          Exit;
+
         TServicesRestaurantes.New.EnviarFavoritosEmail;
       end;
     end
