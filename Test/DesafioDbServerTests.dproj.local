@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/08/19 22:37:58.000.966,=C:\Dados Elvio\C\Elvio\Desenv\DesafioDbServer\Test\Services.Favoritos.Test.pas</Transaction>
+    <Transaction>2020/08/19 22:37:59.000.350,=C:\Dados Elvio\C\Elvio\Desenv\DesafioDbServer\Services\Favoritos\Services.Favoritos.Existe.pas</Transaction>
+    <Transaction>2020/08/19 22:39:46.000.492,C:\Dados Elvio\C\Elvio\Desenv\DesafioDbServer\Test\Services.Favoritos.Existe.Test.pas=C:\Dados Elvio\C\Elvio\Desenv\DesafioDbServer\Test\Services.Favoritos.Test.pas</Transaction>
+    <Transaction>2020/08/19 22:45:35.000.103,=C:\Dados Elvio\C\Elvio\Desenv\DesafioDbServer\Services\Favoritos\Services.Favoritos.Interfaces.pas</Transaction>
+    <Transaction>2020/08/19 22:45:35.000.119,=C:\Dados Elvio\C\Elvio\Desenv\DesafioDbServer\Services\Favoritos\Services.Favoritos.pas</Transaction>
+    <Transaction>2020/08/19 22:45:35.000.087,=C:\Dados Elvio\C\Elvio\Desenv\DesafioDbServer\Services\Favoritos\Services.Favoritos.Existe.pas</Transaction>
+    <Transaction>2020/08/19 22:46:02.000.509,=C:\Dados Elvio\C\Elvio\Desenv\DesafioDbServer\Repositories\Repositories.Interfaces.pas</Transaction>
+    <Transaction>2020/08/19 22:46:02.000.541,=C:\Dados Elvio\C\Elvio\Desenv\DesafioDbServer\Repositories\Repositories.pas</Transaction>
+    <Transaction>2020/08/19 22:46:42.000.556,=C:\Dados Elvio\C\Elvio\Desenv\DesafioDbServer\Services\Restaurantes\Services.Restaurantes.Interfaces.pas</Transaction>
+    <Transaction>2020/08/19 22:46:42.000.572,=C:\Dados Elvio\C\Elvio\Desenv\DesafioDbServer\Services\Restaurantes\Services.Restaurantes.pas</Transaction>
+    <Transaction>2020/08/19 22:46:42.000.526,=C:\Dados Elvio\C\Elvio\Desenv\DesafioDbServer\Services\Restaurantes\Services.Restaurantes.Favorito.pas</Transaction>
+    <Transaction>2020/08/19 22:46:42.000.478,=C:\Dados Elvio\C\Elvio\Desenv\DesafioDbServer\Services\Restaurantes\Services.Restaurantes.Fakes.pas</Transaction>
+    <Transaction>2020/08/19 22:46:42.000.494,=C:\Dados Elvio\C\Elvio\Desenv\DesafioDbServer\Services\Restaurantes\Services.Restaurantes.Favorito.Email.pas</Transaction>
+    <Transaction>2020/08/19 22:46:55.000.931,=C:\Dados Elvio\C\Elvio\Desenv\DesafioDbServer\Domain\Favoritos\Domain.Favoritos.pas</Transaction>
+    <Transaction>2020/08/19 22:46:55.000.916,=C:\Dados Elvio\C\Elvio\Desenv\DesafioDbServer\Domain\Favoritos\Domain.Favoritos.Interfaces.pas</Transaction>
+    <Transaction>2020/08/19 22:47:05.000.056,=C:\Dados Elvio\C\Elvio\Desenv\DesafioDbServer\Domain\Restaurantes\Domain.Restaurantes.pas</Transaction>
+    <Transaction>2020/08/19 22:47:05.000.041,=C:\Dados Elvio\C\Elvio\Desenv\DesafioDbServer\Domain\Restaurantes\Domain.Restaurantes.Interfaces.pas</Transaction>
+    <Transaction>2020/08/19 22:48:27.000.733,=C:\Dados Elvio\C\Elvio\Desenv\DesafioDbServer\Repositories\Repositories.Favoritos.Singleton.pas</Transaction>
+    <Transaction>2020/08/19 22:49:22.000.745,=C:\Dados Elvio\C\Elvio\Desenv\DesafioDbServer\Utils\Constantes\Utils.Constantes.pas</Transaction>
+    <Transaction>2020/08/19 22:49:36.000.776,=C:\Dados Elvio\C\Elvio\Desenv\DesafioDbServer\Utils\Email\Utils.Email.pas</Transaction>
+    <Transaction>2020/08/20 08:19:32.000.821,=C:\Dados Elvio\C\Elvio\Desenv\DesafioDbServer\src\Services\Restaurantes\Services.Restaurantes.Favorito.Utilizado.pas</Transaction>
+    <Transaction>2020/08/20 08:20:42.000.712,=C:\Dados Elvio\C\Elvio\Desenv\DesafioDbServer\Test\Services.Restaurantes.Favorito.Test.pas</Transaction>
+  </Transactions>
+</BorlandProject>

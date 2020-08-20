@@ -1,0 +1,60 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{3F65BFEC-771F-4ED2-9D44-69E7F03FE16E}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="WebApi\DesafioDbServerWebApi.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="Test\DesafioDbServerTests.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="FrontEnd\Delphi\DesafioDbServer.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="DesafioDbServerWebApi">
+        <MSBuild Projects="WebApi\DesafioDbServerWebApi.dproj"/>
+    </Target>
+    <Target Name="DesafioDbServerWebApi:Clean">
+        <MSBuild Projects="WebApi\DesafioDbServerWebApi.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DesafioDbServerWebApi:Make">
+        <MSBuild Projects="WebApi\DesafioDbServerWebApi.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DesafioDbServerTests">
+        <MSBuild Projects="Test\DesafioDbServerTests.dproj"/>
+    </Target>
+    <Target Name="DesafioDbServerTests:Clean">
+        <MSBuild Projects="Test\DesafioDbServerTests.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DesafioDbServerTests:Make">
+        <MSBuild Projects="Test\DesafioDbServerTests.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="DesafioDbServer">
+        <MSBuild Projects="FrontEnd\Delphi\DesafioDbServer.dproj"/>
+    </Target>
+    <Target Name="DesafioDbServer:Clean">
+        <MSBuild Projects="FrontEnd\Delphi\DesafioDbServer.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="DesafioDbServer:Make">
+        <MSBuild Projects="FrontEnd\Delphi\DesafioDbServer.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="DesafioDbServerWebApi;DesafioDbServerTests;DesafioDbServer"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="DesafioDbServerWebApi:Clean;DesafioDbServerTests:Clean;DesafioDbServer:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="DesafioDbServerWebApi:Make;DesafioDbServerTests:Make;DesafioDbServer:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>

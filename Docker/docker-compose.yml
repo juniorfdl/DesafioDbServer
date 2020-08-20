@@ -1,0 +1,13 @@
+version: '3'
+
+services:
+  webapi:
+    image: "juniorfdl2/desafiodbserver"
+    command: ./scratch-dir/DesafioDbServerWebApi/DesafioDbServerWebApi
+    ports:
+      - "9000:9000"
+      - "64211:64211"
+  react:
+    image: "juniorfdl2/desafiodbserverreact"
+    ports:
+      - "3000:80"

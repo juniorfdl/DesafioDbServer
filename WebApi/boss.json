@@ -1,0 +1,11 @@
+{
+	"name": "DesabioDbServer",
+	"description": "",
+	"version": "1.0.0",
+	"homepage": "DesafioDbServer",
+	"mainsrc": "./",
+	"projects": [],
+	"dependencies": {
+		"github.com/hashload/horse-cors": "^1.0.2"
+	}
+}

@@ -1,0 +1,59 @@
+object fPrincipal: TfPrincipal
+  Left = 0
+  Top = 0
+  Caption = 'Clique duas vezes para selecione seu restaurante favorito'
+  ClientHeight = 392
+  ClientWidth = 471
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  DesignerMasterStyle = 0
+  object ListViewRestaurantes: TListView
+    ItemAppearanceClassName = 'TListItemAppearance'
+    ItemEditAppearanceClassName = 'TListItemShowCheckAppearance'
+    HeaderAppearanceClassName = 'TListHeaderObjects'
+    FooterAppearanceClassName = 'TListHeaderObjects'
+    Align = Client
+    Hint = 'Clique duas vezes para selecione seu restaurante favorito'
+    Size.Width = 471.000000000000000000
+    Size.Height = 367.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    OnDblClick = ListViewRestaurantesDblClick
+  end
+  object pTop: TPanel
+    Align = Top
+    Size.Width = 471.000000000000000000
+    Size.Height = 25.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    object lblTitle: TLabel
+      Position.X = 2.000000000000000000
+      Position.Y = 4.000000000000000000
+      Size.Width = 311.000000000000000000
+      Size.Height = 17.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Clique duas vezes para selecione seu restaurante favorito'
+      TabOrder = 0
+    end
+    object btnFavoritos: TSpeedButton
+      Align = Right
+      Position.X = 325.000000000000000000
+      Size.Width = 73.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Favoritos'
+      OnClick = btnFavoritosClick
+    end
+    object btnFavoritoDia: TSpeedButton
+      Align = Right
+      Position.X = 398.000000000000000000
+      Size.Width = 73.000000000000000000
+      Size.Height = 25.000000000000000000
+      Size.PlatformDefault = False
+      Text = 'Resultado'
+      OnClick = btnFavoritoDiaClick
+    end
+  end
+end
