@@ -43,13 +43,11 @@ O ambiente web basta acessar o link: http://localhost:2999/
 
 ## Destaques do sistema
 
-O sistema pode ser disponibilizado em multiplos os dispositivos.
+1. Pode ser disponibilizado em multiplos dispositivos.
+2. Esta estruturado para receber qualquer tipo de evolução
+3. Arquitetura Hexagonal
+4. Deploy dockerizado facilitando escalabilidade vertical  
 
-DesafioDbServer.dpr - Windowns, Linux
-
-FrontEnd\React -Web
-
-O sistema esta estruturado para receber qualquer tipo de evolução
 
 ### Evoluções e melhorias
 1. [ ] Gravar dados no banco de dados
